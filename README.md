@@ -97,3 +97,4 @@ php bin/magento setup:static-content:deploy -f
 
 + Lembrando que o modulo e capaz de indentificar mais store-views.
 
++ Após configurar as store-views para ver as tags de cada idioma basta inspecionar pagina.
