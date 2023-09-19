@@ -60,7 +60,7 @@ Procure o bloco `require`, informa ao composer para instalar seu pacote. Exemplo
     ...
     
     "require": {
-        "45lailson/module-href-lang": "dev-master",
+        "45lailson/module-href-langs": "dev-master",
         "magento/product-community-edition": "2.4",
     },
 
