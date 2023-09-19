@@ -95,5 +95,5 @@ php bin/magento setup:static-content:deploy -f
 
 ![Configuraçao_Modulo](docs/store_views.png)
 
-+ Lembrando que o modulo e capaz de indentificar mais store-views, e a url trabalhada foi uma ficticia na instalação do magento
++ Lembrando que o modulo e capaz de indentificar mais store-views.
 
