@@ -60,7 +60,7 @@ Procure o bloco `require`, informa ao composer para instalar seu pacote. Exemplo
     ...
     
     "require": {
-        "45lailson/module-href-langs": "dev-master",
+        "45lailson/module-href-lang": "dev-master",
         "magento/product-community-edition": "2.4",
     },
 
@@ -88,3 +88,26 @@ Para finalizar a instalação execute os comando abaixo dentro da pasta raiz do 
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy -f
 ```
+
+**Configurações** 
+
++ Configurar a Loja com store-views `Sores > All Stores `
+
+![Configuraçao_Modulo](docs/store_views.png)
+
++ Lembrando que o modulo e capaz de indentificar mais store-views
+
+
+**Exemplo de meta-tag para cada visão de loja.**
+
+## Brasil
+
+![Configuraçao](docs/pt-br.png)
+
+## Inglaterra
+
+![Configuraçao](docs/en-gb.png)
+
+## Inglês
+
+![Configuraçao](docs/en-us.png)
