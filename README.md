@@ -91,7 +91,7 @@ php bin/magento setup:static-content:deploy -f
 
 **Configurações** 
 
-+ Configurar a Loja com store-views `Sores > All Stores `
++ Configurar a Loja com store-views `Stores > All Stores `
 
 ![Configuraçao_Modulo](docs/store_views.png)
 
