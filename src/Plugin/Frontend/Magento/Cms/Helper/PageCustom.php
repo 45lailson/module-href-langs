@@ -48,14 +48,13 @@ class PageCustom
     {
         // If the page is active in multiple store views
         if ($this->helper->isCmsPageMultiStore()) {
-            $pageId = $this->helper->getCmsPageId(); // Get the ID of the current CMS page
-            $pageUrlKey = $this->helper->getCmsPageUrlKey(); // Get the URL Key of the current CMS page
+            $pageId = $this->helper->getCmsPageId(); 
+            $pageUrlKey = $this->helper->getCmsPageUrlKey(); 
 
             foreach ($this->helper->getCmsPageStores() as $store) {
                 $storeLanguage = $this->helper->getStoreLanguage($store);
-
-                // Build the URL with the store view code
-                $storeBaseUrl = rtrim($this->helper->getCurrentUrl(), '/'); // Remove the trailing slash from the base URL
+                
+                $storeBaseUrl = rtrim($this->helper->getCurrentUrl(), '/'); 
                 $storeUrl = $storeBaseUrl . '/' . $storeLanguage . '/' . $pageUrlKey;
 
                 // Add the hreflang Meta Tag to the header
